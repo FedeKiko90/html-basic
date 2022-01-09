@@ -1,0 +1,26 @@
+body{
+    background: gray;
+}
+
+.navegacion{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+nav{
+    border: 1px solid red;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-family: fantasy;
+}
+
+@media (max-width: 600px) {
+    .navegacion{
+        flex-direction: column;
+        background: chartreuse;
+    }
+}
