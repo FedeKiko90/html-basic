@@ -6,7 +6,7 @@ body{
     color: white;
     display: flex;
     justify-content: space-evenly;
-    background: black;
+    background: rgb(167, 34, 34);
 }
 
 nav{
